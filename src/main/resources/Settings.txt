@@ -1,0 +1,3 @@
+PathToDB=jdbc:mysql://localhost:3306/bnkbase?useServerPrepStmts=false&rewriteBatchedStatements=true
+User=dex
+Password=1Q2w3e4r
