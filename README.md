@@ -5,13 +5,13 @@
 
 При создании базы данных я использовал MySQL.
 Для создания базы необходимо выполнить команду:<hr>
-mysql --host=localhost --user=user --password=password < PathTo CreateShema.sql,<hr>
+mysql --host=localhost --user=user --password=password < PathTo CreateShema.sql,
 где user - имя пользователя администратора СУБД, <hr>
     password - ваш пароль,<hr>
-    PathTo - путь до места куда вы положите CreateShema.sql, в котором команды для создания БД.<hr>
+    PathTo - путь до места куда вы положите CreateShema.sql, в котором команды для создания БД.
     
-После выполнения команды создастся схема bnkbase с таблицами:<hr>
-bnkseek, tb_pzn, tb_rgn, tb_uer, tb_tnp, tb_real.<hr>
+После выполнения команды создастся схема bnkbase с таблицами:
+bnkseek, tb_pzn, tb_rgn, tb_uer, tb_tnp, tb_real.
 В bnkseek загружаются данные из BNKSEEK (указанные в ТЗ поля). Остальные таблицы заполняются также из соответсвующих
 DBF файлов (tb_rgn из REG.DBF).
 
